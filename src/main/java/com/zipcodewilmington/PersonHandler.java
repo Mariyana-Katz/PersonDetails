@@ -47,8 +47,8 @@ public class PersonHandler {
                 // get `string Representation` of `currentPerson`
                 // append `stringRepresentation` to `result` variable
             // end loop
-        for(int counter = 0; counter<personArray.length; counter++){
-            result = result + personArray[counter].toString();
+        for( int counter= 0; counter<personArray.length; counter++){
+           result = result + personArray[counter].toString();
         }
 
         return result;
